@@ -1,14 +1,14 @@
 
 def my_collect(array)
     i = 0
-    ary = []
+    narray = []
   if array.size == 0
     return nil
   else
     while i < array.size
-      ary << yield(array[i])
+      narray << yield(array[i])
       i += 1
     end
-    ary
+    narray
   end
 end
