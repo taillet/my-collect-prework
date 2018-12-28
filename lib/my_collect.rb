@@ -1,6 +1,7 @@
 
 def my_collect(array)
     i = 0
+    ary = []
   if array.size == 0
     return nil
   else
