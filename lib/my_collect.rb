@@ -1,7 +1,6 @@
 
 def my_collect(array)
     i = 0
-    narray = []
   if array.size == 0
     return nil
   else
@@ -9,6 +8,6 @@ def my_collect(array)
       yield(array[i])
       i += 1
     end
+    array
   end
-  narray
 end
