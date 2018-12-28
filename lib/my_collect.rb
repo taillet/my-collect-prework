@@ -6,7 +6,7 @@ def my_collect(array)
     return nil
   else
     while i < array.size
-      narray < yield(array[i])
+      yield(narray << array[i])
       i += 1
     end
   end
